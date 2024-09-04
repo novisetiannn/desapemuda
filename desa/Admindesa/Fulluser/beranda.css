@@ -1,0 +1,48 @@
+body {
+	background-image: url('tokoh pemuda.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+  }
+  .berita-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+  }
+  
+  .berita-kartu {
+	width: calc(33.33% - 20px);
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  .berita-kartu img {
+	max-width: 100%;
+  }
+  
+  .btn-detail {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	margin-top: 10px;
+	cursor: pointer;
+  }
+  
+  .berita-detail-container {
+	display: none;
+  }
+  
+  .berita-detail {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  .berita-detail img {
+	max-width: 100%;
+  }
+  
